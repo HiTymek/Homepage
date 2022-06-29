@@ -23,3 +23,7 @@
 .article__paragraph--underlined {
     border-bottom: 1px solid black;
 }
+
+.article__strong {
+    color: rgb(65, 105, 225);
+}

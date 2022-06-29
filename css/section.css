@@ -1,0 +1,7 @@
+.section {
+    flex-basis: 50%;
+    margin: 15px;
+    background-image: url("../images/selfieSmall300.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
