@@ -1,0 +1,30 @@
+.buttonList {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.buttonList__item {
+    justify-content: space-around;
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.buttonList__button {
+    width: 180px;
+    padding: 25px 35px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+}
+
+.buttonList__button:hover {
+    background-color: white;
+    color: rgb(51, 51, 51);
+    border: 2px solid rgb(51, 51, 51);
+    cursor: pointer;
+}

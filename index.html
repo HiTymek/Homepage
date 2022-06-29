@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/article.css">
     <link rel="stylesheet" href="css/sections.css">
     <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/buttonList.css">
     <script defer src="js/script.js"></script>
     <title>Homepage</title>
 </head>
@@ -31,7 +32,7 @@
         <ul class="navigation__list">
             <li class="navigation__item"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
             <li class="navigation__item"><a class="navigation__link" href="#tabela">Tabela</a></li>
-            <li class="navigation__item"><a class="navigation__link" href="#lista">Lista</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#stopka">Stopka</a></li>
             <li class="navigation__item"><a class="navigation__link" href="#test-warunkow-js">Test warunków (JS)</a>
             </li>
         </ul>
@@ -39,7 +40,7 @@
 
     <main class="main">
 
-        <article class="article">
+        <article class="article" id="o-mnie">
             <h2 class="article__header">Kilka <span class=article__header--colourised>słów</span> o mnie</h2>
             <p class="article__paragraph article__paragraph--underlined"><strong class="article__strong">Cześć, mam na
                     imię Tymek.</strong> Mieszkam w małopolsce
@@ -57,7 +58,7 @@
 
     </main>
 
-    <section class="tableSection">
+    <section class="tableSection" id="tabela">
 
         <table class="table">
 
@@ -125,6 +126,17 @@
             </tbody>
 
         </table>
+
+    </section>
+
+    <section class="listSection" id="test-warunkow-js">
+
+        <ul class="buttonList">
+            <li class="buttonList__item"><button class="buttonList__button">Dark Mode</button></li>
+            <li class="buttonList__item"><button class="buttonList__button">Soon</button></li>
+            <li class="buttonList__item"><button class="buttonList__button">Soon</button></li>
+            <li class="buttonList__item"><button class="buttonList__button">Soon</button></li>
+        </ul>
 
     </section>
 
