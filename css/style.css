@@ -6,3 +6,7 @@ html {
     box-sizing: inherit;
     font-family: "Lato", sans-serif;
 }
+
+.js-darkMode {
+    background-color: #ddd;
+}
