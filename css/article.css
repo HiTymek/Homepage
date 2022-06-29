@@ -1,0 +1,25 @@
+.article {
+    flex-basis: 50%;
+    margin: 15px;
+}
+
+.article__header {
+    font-size: 24px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.article__header--colourised {
+    color: rgb(65, 105, 225);
+}
+
+.article__paragraph {
+    text-align: start;
+    font-size: 20px;
+    padding: 20px 45px 20px 20px;
+}
+
+.article__paragraph--underlined {
+    border-bottom: 1px solid black;
+}
